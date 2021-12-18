@@ -18,11 +18,10 @@
    <?php 
      if(isset($_GET['search'])){
         $searchKey = $_GET['search'];
-        $sql = "SELECT * FROM members WHERE TRN LIKE '%$searchKey%' OR `FirstName` LIKE '%$searchKey%%' OR `LastName` LIKE '%$searchKey%%'
-        OR `MiddleName` LIKE '%$searchKey%%'OR `Address` LIKE '%$searchKey%%' OR `RegPlateNum` LIKE '%$searchKey%%'
+        $sql = "SELECT * FROM members WHERE `FirstName` LIKE '%$searchKey%%' OR `LastName` LIKE '%$searchKey%%'
         ";
      }else
-     
+         
      $sql = "SELECT * FROM Members";
      $lookup = $conn->query($sql);
    ?>
