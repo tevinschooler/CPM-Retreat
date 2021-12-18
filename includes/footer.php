@@ -2,7 +2,7 @@
 
 
 
-         <div id="footer" class="p-3 bg-warning text-white fixed-bottom">
+         <div id="footer" class="p-3 bg-primary text-white fixed-bottom">
             <p class="text-center">Copyright &copy; - Christian Prayer Mission  <?php echo date('Y'); ?></p>
 
         </div>
