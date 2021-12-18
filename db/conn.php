@@ -1,5 +1,6 @@
 <?php  
 
+  /* 
 $host='127.0.0.1';
         $db='cpm_mem_ret22';
         $user='root';
@@ -9,8 +10,8 @@ $host='127.0.0.1';
         $dsn= "mysql:host=$host; dbname=$db; charest=$charset";
         $conn = new mysqli('localhost', 'root', '', 'cpm_mem_ret22');
 
- 
-     /* 
+ */
+   
        
      $host='bzkedmxa9xorzlivoddw-mysql.services.clever-cloud.com';
         $db='bzkedmxa9xorzlivoddw';
@@ -20,7 +21,7 @@ $host='127.0.0.1';
 
         $dsn= "mysql:host=$host; dbname=$db; charest=$charset";
 
-*/
+
 
        
 
