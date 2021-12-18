@@ -37,7 +37,11 @@
 
         }
 ?>
+<style>
 
+<?php include 'css/site.css'; ?>
+
+</style>
 
 <h1 class="text-center text-sucess ">You Have Been Registered! </h1>
 

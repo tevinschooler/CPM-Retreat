@@ -19,7 +19,11 @@
 
     }
 ?>
+<style>
 
+<?php include 'css/site.css'; ?>
+
+</style>
 <h1 class="text-center"><?php echo $tile ?> </h1>
    
     <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post">

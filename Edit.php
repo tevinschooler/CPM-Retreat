@@ -16,6 +16,11 @@
         $members = $crud->getAttendeeDetails($id);
   
  ?>
+ <style>
+
+<?php include 'css/site.css'; ?>
+
+</style>
    
     <h1 class="text-center">Update Records</h1>
     

@@ -11,7 +11,7 @@ if(!$_GET['id']){
 }else{
     $id =$_GET['id'];
 
-$result=$crud->deleteMember($id);
+$result=$crud->deleteMemeber($id);
 if($result)
           {
 

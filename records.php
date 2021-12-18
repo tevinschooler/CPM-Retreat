@@ -5,7 +5,11 @@
  require_once 'db/conn.php' ;
 $results = $crud->getMembers(); 
  ?>
- 
+ <style>
+
+<?php include 'css/site.css'; ?>
+
+</style>
 
  <h1 class="text-center">Registration For Christian Prayer Mission Member Retreat 2021 !</h1>
     

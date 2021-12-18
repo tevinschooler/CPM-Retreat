@@ -7,7 +7,14 @@
  $results =$crud->getpackages();
  
  ?>
+ <style>
+
+<?php include 'css/site.css'; ?>
+
+</style>
+
      <h1 class="text-center">Registration For Christian Prayer Mission Member Retreat 2021 !</h1>
+     <hr>
     
     <form method="post" action="success.php"  class="from-group" enctype="multipart/form-data">
       

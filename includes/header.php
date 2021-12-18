@@ -26,18 +26,28 @@ include_once "includes/session.php"?>
   <body>
 
   
-  <ul class="nav justify-content-center nav-pills">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="index.php">Registration</a>
-  </li>
+  <nav class="navbar">
 
-  <li class="nav-item">
-    <a class="nav-link" href="records.php">View Attendees</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="search.php">Search Attendees</a>
-  </li>
+<!-- NAVIGATION MENU -->
+<ul class="nav-links">
+
+  <!-- NAVIGATION MENUS -->
+  <div class="menu">
+  <li>
+<a  href="index.php">Registration</a>
+</li>
+
+<li>
+<a  href="records.php">View Attendees</a>
+</li>
+<li>
+<a  href="search.php">Search Attendees</a>
+</li>
+
 </ul>
+  </div>
+</ul>
+</nav>
 
 <ul class="nav justify-content-left nav-pills">
   <?php

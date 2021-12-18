@@ -9,6 +9,11 @@
 
  
 ?>
+<style>
+
+<?php include 'css/site.css'; ?>
+
+</style>
  <h1>Attendee Search Window</h1>  
    <hr>
 <div class="container">
@@ -21,7 +26,7 @@
         $sql = "SELECT * FROM members WHERE `FirstName` LIKE '%$searchKey%%' OR `LastName` LIKE '%$searchKey%%'
         ";
      }else
-         
+     
      $sql = "SELECT * FROM Members";
      $lookup = $conn->query($sql);
    ?>
