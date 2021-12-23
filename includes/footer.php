@@ -2,8 +2,13 @@
 
 
 
-         <div id="footer" class="p-3 bg-primary text-white fixed-bottom">
-            <p class="text-center">Copyright &copy; - Christian Prayer Mission  <?php echo date('Y'); ?></p>
+         <div id="footer" class="p-3 bg-warning text-white fixed-bottom">
+            <p class="text-center">Copyright &copy; - Christian Prayer Mission  <?php echo date('Y'); ?>
+        
+
+            <img src="images/cross.png" class="img-fluid" height="50px" width="50px">
+
+        </p>
 
         </div>
 </div>

@@ -36,7 +36,7 @@ li {
    }
    .menu li:hover {
     background-color: #2016ad;
-    border-radius: 5px;
+    border-radius: 25px;
     transition: 0.3s ease;
    }
    .menu li {

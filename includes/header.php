@@ -33,6 +33,15 @@ include_once "includes/session.php"?>
 
   <!-- NAVIGATION MENUS -->
   <div class="menu">
+<ti>
+<a class="navbar-brand" href="entry.php">
+      <div class="logo-image">
+            <img src="images/cross.png" class="img-fluid"  width="40px"height="40px" >
+      </div>
+</a>
+
+</ti>
+
   <li>
 <a  href="index.php">Registration</a>
 </li>

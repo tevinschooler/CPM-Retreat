@@ -1,8 +1,5 @@
 <?php  
 
-
-     /* 
-
 $host='127.0.0.1';
         $db='cpm_mem_ret22';
         $user='root';
@@ -12,8 +9,8 @@ $host='127.0.0.1';
         $dsn= "mysql:host=$host; dbname=$db; charest=$charset";
         $conn = new mysqli('localhost', 'root', '', 'cpm_mem_ret22');
 
- */
-
+ 
+     /* 
        
      $host='bzkedmxa9xorzlivoddw-mysql.services.clever-cloud.com';
         $db='bzkedmxa9xorzlivoddw';
@@ -22,9 +19,8 @@ $host='127.0.0.1';
         $charset ='utf8mb4';
 
         $dsn= "mysql:host=$host; dbname=$db; charest=$charset";
-        $conn = new mysqli('bzkedmxa9xorzlivoddw-mysql.services.clever-cloud.com', 'uaajgj9wa90e3ay5', 'qZbE0NvwSP7OiS8dhp8U', 'bzkedmxa9xorzlivoddw');
 
-
+*/
 
        
 
